@@ -12,6 +12,8 @@ accuracy.
 
 For a full description see our main project page at hs/LowCostGNSS
 
+---
+
 u-Blox RAWX and SFRBX binary messages are written out once every 10 seconds.
 This should be fine for static installations, as well as those moving
 at glacial speeds. Many PPP services will decimate this to once every
@@ -60,8 +62,8 @@ file called STATUS.LOG within that month's directory.
 ---
 
 An analysis of the GNSS receiver and overview of the processing is given in
-Still et al. 2023 (J. Glaciology) based on a deployment in Terra Nova Bay and
-the Priestley Glacier, Antarctica.
+Still et al. 2023 (_J. Glaciology_, DOI: _TBD_) based on a deployment in
+Terra Nova Bay and the Priestley Glacier, Antarctica.
 
 
 This code is licensed under the GPL version >= 3. See the GPL-3.txt file found
