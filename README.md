@@ -7,6 +7,9 @@ RTKLIB. You can also use RTKLIB to convert UBX to RINEX format and then
 send the raw data to an online PPP service to do the processing for you.
 (Natural Resources Canada provide a good one)
 
+In this way GPS/GNSS postions can be post-processed to better than 2 cm
+accuracy.
+
 For a full description see our main project page at hs/LowCostGNSS
 
 u-Blox RAWX and SFRBX binary messages are written out once every 10 seconds.
@@ -45,7 +48,7 @@ Where YYYY is the year,
 MM is the month,  
 IIDD is a user-definable logger ID,  
 jjj is the day of the year,  
-and n is the starting hour (presented as a letter A-X for 00-23).
+and n is the starting hour (UTC, presented as a letter A-X for 00-23).
 
 Note we write out daily files not hourly ones, and break things up into
 monthly directories, so it's not exactly true to the NOAA NGS naming style.
