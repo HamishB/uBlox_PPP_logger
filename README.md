@@ -18,11 +18,11 @@ but the data files will start to get pretty big.
 This code was written for the following hardware, but may be compatible
 with similar or more powerful boards.
 
-* u-Blox high precision ZED-F9P RTK receiver board (Eltehs ELT0087)
+* u-Blox high precision ZED-F9P RTK receiver board (Eltehs ELT0087)  
   _We have also successfully tested it with the u-Blox C099-F9P application board_
 * Arduino microcontroller Adafruit Feather Cortex M0 Adalogger (SAMD21 chip)
 * I2C communication between the GNSS receiver and Arduino
-* A 12 volt battery connected to a solar controller and panel
+* A 12 volt battery connected to a solar controller and small 10 watt panel
 
 The whole set up is relatively low cost and consumes around half a watt.
 A description and build instructions for the hardware are also included
@@ -33,14 +33,18 @@ included raw data logging example <DataLoggingExample3_RXM_SFRBX_and_RAWX> by
 Paul Clark (MIT licensed). A compatible version of this library is included
 in the contrib/ directory for posterity.
 
+It also uses the Temperature Zero library by Electronic Cats and friends
+(MIT licensed) to read the Cortex M0's temperature. This is easily
+disabled if you are not using a SAMD21 or SAMD51 microprocessor.
+
 
 Daily log files are written to the SD card in NOAA NGS naming style:
 YYYY/MM/IIDDjjjn.UBX
 
-Where YYYY is the year,
-MM is the month,
-IIDD is a user-definable logger ID,
-jjj is the day of the year,
+Where YYYY is the year,  
+MM is the month,  
+IIDD is a user-definable logger ID,  
+jjj is the day of the year,  
 and n is the starting hour (presented as a letter A-X for 00-23).
 
 Note we write out daily files not hourly ones, and break things up into
@@ -50,6 +54,7 @@ In addition hourly status reports including basic positioning information,
 battery voltage, and the M0's temperature is written to a monthly status
 file called STATUS.LOG within that month's directory.
 
+---
 
 An analysis of the GNSS receiver and overview of the processing is given in
 Still et al. 2023 (J. Glaciology) based on a deployment in Terra Nova Bay and
@@ -64,7 +69,6 @@ the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 (CC BY-NC-SA 4.0) license.
 
 
----
 You may also find this project on Codeberg.org
 
 
