@@ -14,6 +14,9 @@ For a full description see our main project page at hs/LowCostGNSS
 
 ---
 
+<img src="hardware/GNSS_logger_PriestleyGlacier.jpg" width="350" align="right"
+     alt="Low cost GNSS logger deployed on the Priestley Glacier Nov. 2023">
+
 u-Blox RAWX and SFRBX binary messages are written out once every 10 seconds.
 This should be fine for static installations, as well as those moving
 at glacial speeds. Many PPP services will decimate this to once every
