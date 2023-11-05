@@ -1,6 +1,6 @@
 # Support libraries
 
-The versions supplied here are know to work at time of publishing.
+The versions supplied here are known to work at time of publishing.
 You are probably better off installing them with the Library Manager within the Arduino IDE.
 
 
@@ -11,4 +11,4 @@ Visit the upstream projects:
 * [ElectronicCats/ElectronicCats_InternalTemperatureZero](https://github.com/ElectronicCats/ElectronicCats_InternalTemperatureZero)
 
 
-_Both use the MIT license_
+_Both libraries use the MIT license_
