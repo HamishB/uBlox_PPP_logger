@@ -47,7 +47,7 @@ disabled if you are not using a SAMD21 or SAMD51 microprocessor.
 
 
 Daily log files are written to the SD card in NOAA NGS naming style:
-YYYY/MM/IIDDjjjn.UBX
+  `YYYY/MM/IIDDjjjn.UBX`
 
 Where YYYY is the year,  
 MM is the month,  
