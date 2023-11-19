@@ -46,7 +46,7 @@ It also uses the Temperature Zero library by Electronic Cats and friends
 disabled if you are not using a SAMD21 or SAMD51 microprocessor.
 
 
-Daily log files are written to the SD card in NOAA NGS naming style: 
+Daily log files are written to the SD card in NOAA NGS naming style:  
   `YYYY/MM/IIDDjjjn.UBX`
 
 Where YYYY is the year,  
