@@ -29,7 +29,7 @@ with similar or more powerful boards.
 * u-Blox high precision ZED-F9P RTK receiver board (Eltehs ELT0087)  
   _We have also successfully tested it with the u-Blox C099-F9P application board_
 * Arduino microcontroller Adafruit Feather Cortex M0 Adalogger (SAMD21 chip)
-* I2C communication between the GNSS receiver and Arduino
+* I2C communication between the GNSS receiver and Arduino (address 0x42)
 * A 12 volt battery connected to a solar controller and small 10 watt panel
 
 The whole set up is relatively low cost and consumes around half a watt.
@@ -49,11 +49,11 @@ disabled if you are not using a SAMD21 or SAMD51 microprocessor.
 Daily log files are written to the SD card in NOAA NGS naming style:  
   `YYYY/MM/IIDDjjjn.UBX`
 
-Where YYYY is the year,  
-MM is the month,  
-IIDD is a user-definable logger ID,  
-jjj is the day of the year,  
-and n is the starting hour (UTC, presented as a letter A-X for 00-23).
+Where `YYYY` is the year,  
+`MM` is the month,  
+`IIDD` is a user-definable logger ID,  
+`jjj` is the day of the year,  
+and `n` is the starting hour (UTC, presented as a letter A-X for 00-23).
 
 Note we write out daily files not hourly ones, and break things up into
 monthly directories, so it's not exactly true to the NOAA NGS naming style.
