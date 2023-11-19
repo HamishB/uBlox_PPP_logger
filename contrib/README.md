@@ -12,3 +12,17 @@ Visit the upstream projects:
 
 
 _Both libraries use the MIT license_
+
+
+# u-Blox Firmware
+
+We have tested the ZED-F9P using firmware version 1.32 (released 12 May 2022).
+This reports as protocol version 27.31. In uCenter you can check this with:  
+  View > Messages View > UBX > MON > VER
+
+The firmware can be downloaded from:  
+  https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update#Documentation-&-resources
+
+And then uploaded in uCenter in Tools > Firmware Update
+
+
