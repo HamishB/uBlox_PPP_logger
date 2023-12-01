@@ -23,10 +23,12 @@ This reports as protocol version 27.31. In uCenter you can check this with:
 The firmware can be downloaded from:  
   https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update#Documentation-&-resources
 
-And then uploaded in uCenter in Tools > Firmware Update
+And then uploaded in uCenter with Tools > Firmware Update
 
 
 ## u-Blox Configuration
 
-To aid with configuration we will include our EEPROM settings here.
-These can be uploaded to the ZED-F9P in uCenter.
+To aid with configuration we include our EEPROM settings in the
+`uBlox_ZED-F9P_v1.32_I2C_logger.cfg` file.
+These can be uploaded to the ZED-F9P in uCenter and will only work with
+firmware version 1.32.
