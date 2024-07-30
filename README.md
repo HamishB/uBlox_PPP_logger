@@ -10,7 +10,8 @@ send the raw data to an online PPP service to do the processing for you.
 In this way GPS/GNSS postions can be post-processed to better than 2 cm
 accuracy.
 
-For a full description see our main project page at hs/LowCostGNSS
+For a full description see our main project page at
+[hollystill/LowCostGNSS](https://github.com/hollystill/LowCostGNSS).
 
 ---
 
@@ -65,8 +66,9 @@ file called STATUS.LOG within that month's directory.
 ---
 
 An analysis of the GNSS receiver and overview of the processing is given in
-Still et al. 2023 (_J. Glaciology_, DOI: _TBD_) based on a deployment in
-Terra Nova Bay and the Priestley Glacier, Antarctica.
+[Still et al. 2023](https://www.cambridge.org/core/journals/journal-of-glaciology/article/observing-glacier-dynamics-with-lowcost-multignss-positioning-in-victoria-land-antarctica/D23774163BA6BFC2EBD35E4CD377F10C)
+(_J. Glaciology_, DOI: _10.1017/jog.2023.101_)
+based on a deployment in Terra Nova Bay and the Priestley Glacier, Antarctica.
 
 
 This code is licensed under the GPL version >= 3. See the GPL-3.txt file found
