@@ -34,8 +34,8 @@ with similar or more powerful boards.
 * A 12 volt battery connected to a solar controller and small 10 watt panel
 
 The whole set up is relatively low cost and consumes around half a watt.
-A description and build instructions for the hardware are also included
-in the hardware/ directory.
+A description and build instructions for the hardware is planned to be included
+in the hardware/ directory at a later date.
 
 It uses the SparkFun u-Blox GNSS Arduino library, and was inspired by their
 included raw data logging example <DataLoggingExample3_RXM_SFRBX_and_RAWX> by
